@@ -5,10 +5,11 @@
 # def highest_GC_ID(filename):
 
 import string
+from Bio import Seq
 
 def highest_GC(filename):
 	with open(filename,"r") as textfile:
-		DNAseq=textfile.read()
+		test=textfile.read()
 	return test
 
 input = "test.txt" #str(raw_input("What is the name of the textfile?"))
